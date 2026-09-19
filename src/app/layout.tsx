@@ -29,12 +29,21 @@ export const metadata: Metadata = {
     title: "EU Market Entry for Canadian Companies | Canada EU Entry by OneTitel",
     description:
       "Validate, establish and grow your business in Germany and the European Union — advisory, launch coordination and commercial execution for Canadian companies.",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Canada EU Entry by OneTitel — Build your business in Germany. Expand across Europe.",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "EU Market Entry for Canadian Companies | Canada EU Entry by OneTitel",
     description:
       "Validate, establish and grow your business in Germany and the European Union.",
+    images: ["/og-image.jpg"],
   },
   robots: {
     index: true,

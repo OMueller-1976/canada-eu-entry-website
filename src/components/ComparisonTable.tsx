@@ -8,8 +8,12 @@ export default function ComparisonTable({ rows }: { rows: ComparisonRow[] }) {
   ] as const;
 
   return (
-    <div className="overflow-x-auto">
-      <table className="w-full min-w-[720px] border-collapse text-left text-sm">
+    <div>
+      <p className="mb-2 text-xs font-medium uppercase tracking-wider text-graphite/50 md:hidden">
+        Swipe to compare &rarr;
+      </p>
+      <div className="overflow-x-auto">
+        <table className="w-full min-w-[720px] border-collapse text-left text-sm">
         <thead>
           <tr>
             <th className="w-40 border-b-2 border-navy/15 pb-4 pr-4 align-bottom text-xs font-bold uppercase tracking-wider text-graphite/60">
@@ -42,7 +46,8 @@ export default function ComparisonTable({ rows }: { rows: ComparisonRow[] }) {
             </tr>
           ))}
         </tbody>
-      </table>
+        </table>
+      </div>
     </div>
   );
 }

@@ -58,7 +58,7 @@ export default function HomePage() {
             <p className="mt-3 text-sm font-bold uppercase tracking-wider text-accent">
               Canada–EU Market Entry Advisory &amp; Execution
             </p>
-            <h1 className="mt-5 font-serif text-5xl font-bold leading-[1.05] text-navy md:text-7xl">
+            <h1 className="mt-5 font-serif text-4xl font-bold leading-[1.08] text-navy sm:text-5xl md:text-7xl">
               Build your business in Germany. Expand across Europe.
             </h1>
             <p className="mt-7 text-xl leading-relaxed text-graphite">
