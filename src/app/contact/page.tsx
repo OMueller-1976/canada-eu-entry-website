@@ -194,10 +194,10 @@ export default function ContactPage() {
                   name="budget"
                   className="mt-2 w-full rounded-sm border border-navy/20 bg-white px-4 py-2.5 text-sm focus-visible:outline-eublue"
                 >
-                  <option>Under €5,000</option>
-                  <option>€5,000–€15,000</option>
-                  <option>€15,000–€40,000</option>
-                  <option>Over €40,000</option>
+                  <option>Under CAD $9,000</option>
+                  <option>CAD $9,000–$27,000</option>
+                  <option>CAD $27,000–$70,000</option>
+                  <option>Over CAD $70,000</option>
                   <option>Not yet determined</option>
                 </select>
               </div>

@@ -99,6 +99,27 @@ provided (CV, onetitel.de, direct instruction). Two items remain outstanding and
   and copyright sections using standard German boilerplate language.
 - No more `[Placeholder]` text remains on `/legal-notice`.
 
+## Resolved (2026-09-19, fourth pass — pricing)
+
+- All service prices switched from EUR to CAD, per the business owner's decision to price and
+  invoice in CAD going forward. Conversion used the EUR/CAD rate at the time (~1.61) plus a
+  buffer to absorb exchange-rate movement, then rounded to a clean figure: EU Entry Audit CAD
+  $17,500 (was €7,500); Germany Market Signal Sprint CAD $12,500 (was €4,900); Germany Market
+  Validation Sprint CAD $68,000 (was €35,000); German Entity Launch from CAD $27,000 (was
+  €15,000); German Commercial Launch CAD $45,000–$80,000 (was €25,000–€45,000); Germany Market
+  Office CAD $9,000–$18,000/month (was €5,000–€10,000/month); German Media Monetization Audit
+  CAD $12,500–$16,000 (was €5,900–€7,500). Updated everywhere these appear: `services.ts`,
+  `signal-sprint.ts`, `faq.ts`, `ComparisonTable.tsx`, the Contact page budget-range dropdown,
+  and the Signal Sprint page's structured-data (`Offer`) price/currency.
+- The GmbH statutory share-capital figures (€25,000 / €12,500) and the third-party EU–Canada
+  trade statistics remain intentionally in EUR, since they are legal minimums and third-party
+  citations, not our own pricing.
+- Clarified that the Germany Market Signal Sprint's "approximately 15 working days" is a
+  duration, not a day rate — the CAD $12,500 is a fixed fee for the full engagement. Wording
+  updated on the Sprint page and in its FAQ answer to remove the ambiguity.
+- **STILL RECOMMENDED**: a final sanity check of the EUR/CAD rate closer to launch, since the
+  rounding buffer was sized for a several-month cushion, not indefinitely.
+
 ## Still needed from the business owner (summary)
 
 1. Favicon / OG image assets.

@@ -2,9 +2,9 @@ import type { ComparisonRow } from "@/content/signal-sprint";
 
 export default function ComparisonTable({ rows }: { rows: ComparisonRow[] }) {
   const cols = [
-    { key: "signalSprint", label: "Germany Market Signal Sprint", price: "€4,900" },
-    { key: "euEntryAudit", label: "EU Entry Audit", price: "€7,500" },
-    { key: "validationSprint", label: "Germany Market Validation Sprint", price: "€35,000" },
+    { key: "signalSprint", label: "Germany Market Signal Sprint", price: "CAD $12,500" },
+    { key: "euEntryAudit", label: "EU Entry Audit", price: "CAD $17,500" },
+    { key: "validationSprint", label: "Germany Market Validation Sprint", price: "CAD $68,000" },
   ] as const;
 
   return (

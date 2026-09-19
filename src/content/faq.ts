@@ -2,9 +2,9 @@ import type { FaqItem } from "@/components/Faq";
 
 export const FAQ_ITEMS: FaqItem[] = [
   {
-    question: "I'm not ready to spend €7,500 or more — is there a smaller way to start?",
+    question: "I'm not ready to spend CAD $17,500 or more — is there a smaller way to start?",
     answer:
-      "Yes. The Germany Market Signal Sprint is a fixed-fee, fifteen-working-day program for Canadian B2B technology, media, AdTech, MarTech and SaaS companies that localizes your positioning, maps the relevant industry ecosystem, and collects first market signals through outreach — for €4,900. It sits alongside, not in place of, the EU Entry Audit and the Germany Market Validation Sprint, and up to €2,000 of the fee can be credited toward either if you proceed within 30 days.",
+      "Yes. The Germany Market Signal Sprint is a fixed-fee, fifteen-working-day program for Canadian B2B technology, media, AdTech, MarTech and SaaS companies that localizes your positioning, maps the relevant industry ecosystem, and collects first market signals through outreach — for CAD $12,500. It sits alongside, not in place of, the EU Entry Audit and the Germany Market Validation Sprint, and up to CAD $4,500 of the fee can be credited toward either if you proceed within 30 days.",
   },
   {
     question: "Is Germany the right first market for every Canadian company?",

@@ -5,9 +5,10 @@ export const SIGNAL_SPRINT = {
   claim: "Test the German market before you build in it.",
   supportingLine:
     "Validate your message, map the right industry ecosystem and collect first market signals before committing to a full European launch.",
-  price: "€4,900",
-  priceNote: "plus applicable VAT, where legally required",
-  duration: "Approximately 15 working days from receipt of all required client information",
+  price: "CAD $12,500",
+  priceNote: "plus applicable taxes, where legally required",
+  duration:
+    "Fixed-fee engagement, not a day rate — completed in approximately 15 working days from receipt of all required client information",
   terms: [
     "50% payable upon commissioning.",
     "50% payable upon completion and delivery of the agreed work products.",
@@ -27,7 +28,7 @@ export const SIGNAL_SPRINT = {
   ],
   upgrade: {
     headline: "Upgrade credit",
-    text: "If you commission an EU Entry Audit or a Germany Market Validation Sprint within 30 calendar days of completing the Germany Market Signal Sprint, €2,000 of the Sprint fee can be credited toward that follow-on project.",
+    text: "If you commission an EU Entry Audit or a Germany Market Validation Sprint within 30 calendar days of completing the Germany Market Signal Sprint, CAD $4,500 of the Sprint fee can be credited toward that follow-on project.",
     conditions: [
       "Applies only to an immediately following market-entry project",
       "Not payable out in cash",
@@ -289,7 +290,8 @@ export const SIGNAL_SPRINT = {
     },
     {
       question: "How long does the Sprint take?",
-      answer: "Approximately 15 working days from receipt of all required client information.",
+      answer:
+        "The CAD $12,500 fee is a fixed price for the full engagement, not a day rate. The Sprint itself is completed in approximately 15 working days from receipt of all required client information.",
     },
     {
       question: "What happens after the Sprint?",
@@ -299,7 +301,7 @@ export const SIGNAL_SPRINT = {
     {
       question: "Can part of the fee be credited toward a larger engagement?",
       answer:
-        "Yes. If you commission an EU Entry Audit or Germany Market Validation Sprint within 30 calendar days of completing the Sprint, €2,000 of the fee can be credited toward that project, subject to the conditions confirmed in the individual proposal.",
+        "Yes. If you commission an EU Entry Audit or Germany Market Validation Sprint within 30 calendar days of completing the Sprint, CAD $4,500 of the fee can be credited toward that project, subject to the conditions confirmed in the individual proposal.",
     },
     {
       question: "What are the payment terms?",
@@ -318,9 +320,9 @@ export type ComparisonRow = {
 export const OFFER_COMPARISON: ComparisonRow[] = [
   {
     label: "Price",
-    signalSprint: "€4,900",
-    euEntryAudit: "€7,500",
-    validationSprint: "€35,000",
+    signalSprint: "CAD $12,500",
+    euEntryAudit: "CAD $17,500",
+    validationSprint: "CAD $68,000",
   },
   {
     label: "Core question",

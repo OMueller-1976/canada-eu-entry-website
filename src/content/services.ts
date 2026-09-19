@@ -17,7 +17,7 @@ export const SERVICES: Service[] = [
     slug: "eu-entry-audit",
     name: "EU Entry Audit",
     stage: "Validate",
-    priceLabel: "€7,500",
+    priceLabel: "CAD $17,500",
     summary:
       "A management-level assessment for Canadian companies considering entry into Germany and the EU.",
     purpose:
@@ -45,7 +45,7 @@ export const SERVICES: Service[] = [
     slug: "germany-market-validation-sprint",
     name: "Germany Market Validation Sprint",
     stage: "Validate",
-    priceLabel: "€35,000",
+    priceLabel: "CAD $68,000",
     summary:
       "A deeper, evidence-based validation of the German market before you commit substantial investment.",
     purpose:
@@ -76,7 +76,7 @@ export const SERVICES: Service[] = [
     slug: "german-entity-launch",
     name: "German Entity Launch",
     stage: "Establish",
-    priceLabel: "From €15,000, depending on structure and scope",
+    priceLabel: "From CAD $27,000, depending on structure and scope",
     summary:
       "Coordination of the establishment of a German subsidiary, branch or suitable operating presence.",
     purpose:
@@ -122,7 +122,7 @@ export const SERVICES: Service[] = [
     slug: "german-commercial-launch",
     name: "German Commercial Launch",
     stage: "Establish",
-    priceLabel: "€25,000–€45,000, depending on scope",
+    priceLabel: "CAD $45,000–$80,000, depending on scope",
     summary:
       "Build a credible, sales-ready German market presence beyond the legal entity itself.",
     purpose:
@@ -153,7 +153,7 @@ export const SERVICES: Service[] = [
     slug: "germany-market-office",
     name: "Germany Market Office",
     stage: "Grow",
-    priceLabel: "€5,000–€10,000 per month",
+    priceLabel: "CAD $9,000–$18,000 per month",
     summary: "Ongoing fractional market representation and commercial development.",
     purpose:
       "Once you are established, the Germany Market Office gives you a local point of contact who keeps your pipeline moving, manages relationships with local providers and reports on progress every month — without the cost of a full-time hire.",
@@ -178,7 +178,7 @@ export const SERVICES: Service[] = [
     slug: "german-media-monetization-audit",
     name: "German Media Monetization Audit",
     stage: "Validate",
-    priceLabel: "€5,900–€7,500, depending on scope",
+    priceLabel: "CAD $12,500–$16,000, depending on scope",
     summary:
       "For Canadian B2B publishers, media companies and publishing-technology businesses assessing German monetization potential.",
     purpose:

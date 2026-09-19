@@ -34,8 +34,8 @@ export default function SignalSprintPage() {
     },
     offers: {
       "@type": "Offer",
-      price: "4900",
-      priceCurrency: "EUR",
+      price: "12500",
+      priceCurrency: "CAD",
     },
   };
 
