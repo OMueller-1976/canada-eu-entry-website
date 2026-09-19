@@ -45,13 +45,21 @@ export default function PrivacyPolicyPage() {
             once the hosting/analytics setup is finalized.]
           </p>
 
-          <h2>4. Cookies and consent</h2>
+          <h2>4. Cookies, tag management and consent</h2>
           <p>
-            This website does not currently use non-essential tracking, analytics or marketing
-            cookies. Should such tools be added in the future (e.g., privacy-friendly web
-            analytics), they will only be activated after consent is obtained through a
-            consent-management mechanism, and this policy will be updated to name the specific
-            tool, its provider and its purpose.
+            This website uses Google Tag Manager (GTM), a tag-management system provided by
+            Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. GTM itself is
+            a container technology that loads other tags/scripts (such as analytics or marketing
+            pixels) and does not, by itself, set cookies or process personal data beyond
+            technical information required to load those tags.
+          </p>
+          <p>
+            [Placeholder: this site does not yet activate any analytics, advertising or
+            marketing tags inside GTM. Before any such tag is enabled, a consent-management
+            platform (cookie banner) must be implemented so that non-essential tags only fire
+            after explicit, informed consent (Art. 6(1)(a) GDPR / Section 25 TTDSG), and this
+            policy must be updated to name every specific tag added, its provider, purpose,
+            data processed, retention period and opt-out mechanism.]
           </p>
 
           <h2>5. Data sharing</h2>

@@ -60,8 +60,11 @@ provided (CV, onetitel.de, direct instruction). Two items remain outstanding and
 - Canada and EU flag icons added (header, footer, homepage hero) — done, using plain flag
   imagery (not official government/EU wordmarks) to avoid implying official affiliation.
 - Favicon and Open Graph / social preview image — still not created; **outstanding**.
-- Analytics tool decision — still open; no tracking is enabled yet, which is compliant by
-  default.
+- Analytics/tag manager: Google Tag Manager (GTM-5KZ2XGLN) is now installed site-wide
+  (`src/app/layout.tsx`). No analytics/marketing tags are enabled inside it yet — **before
+  adding any tag in GTM (GA4, Ads, etc.), a cookie-consent banner must be implemented** so
+  non-essential tags only fire after consent, and `/privacy-policy` must be updated to name
+  each specific tag added.
 - Official brand color values — using the implemented Canadian red / EU blue direction; no
   further brand guideline was supplied.
 
