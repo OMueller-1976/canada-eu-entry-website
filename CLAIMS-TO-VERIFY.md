@@ -88,3 +88,20 @@ citing these numbers in sales/marketing material outside the website.
     contacts/relationships behind each named sector and behind the two-professor claim. Confirm
     this wording is accurate to how the network and advisory relationships actually work, and
     supply specific names/universities if you'd like them named on the page.
+
+## Germany Market Signal Sprint — restructured to 5 components (2026-09-19)
+
+16. Simplified from 8 to 5 components at the business owner's request: merged Entry Diagnostic
+    with German Market Translation, dropped the standalone Media and Visibility Route (its most
+    relevant recommendation is now one bullet inside the Decision Memo instead of its own
+    component), replaced "Market Signal Outreach" with a more concrete "Executive Insight
+    Interviews" component (two structured interviews with target-industry decision-makers,
+    sourced from the Ecosystem Map), and merged the Scorecard with the Decision Memo. FAQ,
+    process steps, comparison-table copy and the teaser bullet list updated to match. The
+    interview component carries the same guarantee-avoidance language already used elsewhere on
+    the site (participation cannot be guaranteed; a substitute decision-maker is approached if
+    one declines) — confirm this operationally reflects how you intend to run the interviews
+    before the fee is publicly sold on this basis.
+17. Removed the `[Placeholder: specific professional contexts...]` note from the credibility
+    section of `/germany-market-signal-sprint`, since the About page now covers named past
+    engagements in full; that section links to `/about` instead.

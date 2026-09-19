@@ -35,7 +35,7 @@ export default function SignalSprintTeaser() {
           <ul className="mt-5 space-y-1.5 text-sm text-graphite">
             <li>— Localized positioning &amp; one-pager</li>
             <li>— Industry ecosystem map</li>
-            <li>— First market outreach</li>
+            <li>— Two executive interviews with target-industry decision-makers</li>
             <li>— Market Signal Scorecard &amp; decision memo</li>
           </ul>
           <Link

@@ -174,7 +174,7 @@ export default function SignalSprintPage() {
       {/* WHAT'S INCLUDED */}
       <section id="included" className="scroll-mt-24 border-t border-navy/10 bg-white py-16 md:py-24">
         <Container>
-          <SectionHeading eyebrow="What Is Included" title="Eight components, one accountable process" />
+          <SectionHeading eyebrow="What Is Included" title="Five components, one accountable process" />
           <div className="mt-10 space-y-10">
             {SIGNAL_SPRINT.components.map((c) => (
               <div key={c.number} className="border-b border-navy/10 pb-10 last:border-b-0">
@@ -266,11 +266,6 @@ export default function SignalSprintPage() {
                   )}
                 </div>
 
-                {"note" in c && c.note && (
-                  <p className="mt-4 border-l-2 border-eublue pl-4 text-sm italic leading-relaxed text-graphite/80">
-                    {c.note}
-                  </p>
-                )}
                 {"guarantee" in c && c.guarantee && (
                   <p className="mt-4 border-l-2 border-accent pl-4 text-sm font-medium italic leading-relaxed text-graphite">
                     &ldquo;{c.guarantee}&rdquo;
@@ -350,7 +345,7 @@ export default function SignalSprintPage() {
         <Container className="max-w-3xl">
           <SectionHeading eyebrow={`About ${SITE.legalName}'s Relevant Experience`} title="Built on two decades in media, AdTech and B2B commercial roles" />
           <p className="mt-6 text-base leading-relaxed text-graphite">
-            The Media and Visibility Route and Market Signal Outreach components draw on more
+            The Industry Ecosystem Map and Executive Insight Interviews components draw on more
             than 20 years of hands-on experience across B2B media, digital publishing, enterprise
             sales, German market entry, AdTech and programmatic advertising, SaaS and platform
             business, IT-channel marketing, lead generation, media monetization, digital product
@@ -358,11 +353,12 @@ export default function SignalSprintPage() {
             transformation.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-graphite/70">
-            [Placeholder: specific professional contexts — for example prior roles at named
-            media, advertising or publishing companies — can be referenced here once explicitly
-            approved and cleared for trademark and factual accuracy. No employer, client or
-            partner logo is used without confirmed usage rights, and no past employment is
-            presented as a current partnership, client relationship or endorsement.]
+            Full professional background, named engagements and the wider OneTitel network are
+            detailed on the{" "}
+            <Link href="/about" className="text-eublue underline underline-offset-2">
+              About page
+            </Link>
+            .
           </p>
         </Container>
       </section>
