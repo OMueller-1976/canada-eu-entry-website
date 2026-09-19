@@ -3,6 +3,7 @@ import { SITE } from "@/lib/site";
 import { SERVICES } from "@/content/services";
 import { INDUSTRIES } from "@/content/industries";
 import { SIGNAL_SPRINT } from "@/content/signal-sprint";
+import { ARTICLES } from "@/content/articles";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
@@ -41,6 +42,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.6,
+    });
+  });
+
+  ARTICLES.forEach((a) => {
+    entries.push({
+      url: `${SITE.url}/market-intelligence/${a.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.5,
     });
   });
 

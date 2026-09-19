@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Container from "@/components/Container";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CtaBanner from "@/components/CtaBanner";
+import { getArticlesByCategory } from "@/content/articles";
 
 export const metadata: Metadata = {
   title: "Market Intelligence",
@@ -150,20 +152,45 @@ export default function MarketIntelligencePage() {
       <section className="py-16 md:py-24">
         <Container>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {CATEGORIES.map((cat) => (
-              <div key={cat.name} className="border border-dashed border-navy/25 bg-white p-7">
-                <h2 className="font-serif text-lg font-semibold text-navy">{cat.name}</h2>
-                <p className="mt-3 text-sm leading-relaxed text-graphite">{cat.description}</p>
-                <p className="mt-5 inline-block rounded-full bg-navy/5 px-3 py-1 text-xs font-medium uppercase tracking-wider text-graphite/70">
-                  Coming soon
-                </p>
-              </div>
-            ))}
+            {CATEGORIES.map((cat) => {
+              const articles = getArticlesByCategory(cat.name);
+              return (
+                <div
+                  key={cat.name}
+                  className={`border p-7 ${
+                    articles.length > 0
+                      ? "border-navy/15 bg-white"
+                      : "border-dashed border-navy/25 bg-white"
+                  }`}
+                >
+                  <h2 className="font-serif text-lg font-semibold text-navy">{cat.name}</h2>
+                  <p className="mt-3 text-sm leading-relaxed text-graphite">{cat.description}</p>
+                  {articles.length > 0 ? (
+                    <ul className="mt-5 space-y-2">
+                      {articles.map((a) => (
+                        <li key={a.slug}>
+                          <Link
+                            href={`/market-intelligence/${a.slug}`}
+                            className="text-sm font-medium text-eublue underline-offset-2 hover:underline"
+                          >
+                            {a.title} →
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="mt-5 inline-block rounded-full bg-navy/5 px-3 py-1 text-xs font-medium uppercase tracking-wider text-graphite/70">
+                      Coming soon
+                    </p>
+                  )}
+                </div>
+              );
+            })}
           </div>
           <p className="mt-10 max-w-2xl text-sm leading-relaxed text-graphite/70">
-            This section is intentionally an empty state today. Articles will be published here
-            as they are researched and written — nothing on this page represents an existing
-            publication or dated report.
+            The articles above are our own research, current as of publication and linked to
+            their primary sources. The remaining categories are an intentional empty state —
+            nothing there represents an existing publication or dated report.
           </p>
         </Container>
       </section>
