@@ -1,66 +1,83 @@
 # Missing Business Information Required Before Launch
 
-The business owner needs to supply the following before this site can go live. Search the
-codebase for `[placeholder` and `TODO` to find every instance in context.
+Update (2026-09-19): most items below have been filled in from information the business owner
+provided (CV, onetitel.de, direct instruction). Two items remain outstanding and are marked
+**STILL NEEDED**.
 
 ## Legal & compliance (Legal Notice, `/legal-notice`)
 
-- Full legal name of the responsible natural person / registered trading name
-- Full serviceable business address (street, postal code, city) in Germany
-- Business telephone number
-- Business email address
-- VAT identification number (Section 27a UStG), if applicable
+- Full legal name: **Oliver Markus Müller**, trading as "Canada EU Entry" / "OneTitel" — done.
+- Full serviceable business address (street, postal code, city) in Germany — **STILL NEEDED**.
+  Only the general location (Kirchweiler) is on the site; the exact street address must be
+  supplied and added to `/legal-notice`, `/privacy-policy` and the About page.
+- Business telephone number: **+49 175 2079295** — done.
+- Business email address: **om@onetitel.de** — done.
+- VAT identification number (Section 27a UStG), if applicable — **STILL NEEDED**.
 - Confirmation of whether an EU online dispute resolution (ODR) statement is required and, if
-  so, the correct current link
-- Final liability/disclaimer language, drafted or reviewed by a German lawyer
+  so, the correct current link — still open, recommend confirming with a German lawyer.
+- Final liability/disclaimer language, drafted or reviewed by a German lawyer — still open.
 
 ## Privacy Policy (`/privacy-policy`)
 
-- Data controller's full legal name and address (should match Legal Notice)
-- Data-protection contact email
-- Final list of any tools/processors actually in use (email provider, hosting provider,
-  analytics, CRM) and their role
-- Confirmation of the specific GDPR legal basis relied on for each processing activity
-- Confirmation of any data transfer outside the EU/EEA (including to Canada) and the safeguard
-  relied upon
-- Data-retention periods for inquiry/contact data
-- The competent supervisory authority to name for complaints, based on the registered address
+- Data controller's name: Oliver Markus Müller / OneTitel — done; address still pending (see
+  above).
+- Data-protection contact email: om@onetitel.de — done.
+- Final list of any tools/processors actually in use — hosting is Vercel; no analytics/CRM tool
+  is in use yet. Update the policy once one is added.
+- GDPR legal basis wording drafted (Art. 6(1)(b)/(f)) — recommend a final read-through by a
+  data-protection professional.
+- International data transfer note (incl. to Canada) drafted — recommend confirming safeguards
+  with a professional once the final hosting/CRM stack is set.
+- Data-retention periods — drafted generically; confirm exact periods with a professional.
+- Competent supervisory authority — drafted as the Rhineland-Palatinate LfDI based on the
+  Kirchweiler location; confirm once the exact registered address is set.
 
 ## Contact page (`/contact`)
 
-- Production contact email address (currently a placeholder in `src/lib/site.ts` —
-  `hello@canadaeuentry.com` — confirm or replace)
-- Business phone number
-- Registered business address (for display, matching the Legal Notice)
-- A decision on the contact-form handler: the current implementation is a functional
-  `mailto:` placeholder and should be replaced with a real form-submission service (a
-  serverless function, Formspree, Basin, etc.) with spam protection before launch
+- Contact email: **om@onetitel.de** now shown directly (site-wide default in `src/lib/site.ts`
+  is still `hello@canadaeuentry.com` for the mailto: form action — confirm whether to switch
+  this to om@onetitel.de or set up a dedicated inbox).
+- Business phone number: **+49 175 2079295** — shown.
+- Registered business address — **STILL NEEDED** (same street address as above).
+- LinkedIn added: https://www.linkedin.com/in/oliver-m-mueller/
+- A decision on the contact-form handler: still a functional `mailto:` placeholder; replace
+  with a real form-submission service (serverless function, Formspree, Basin, etc.) with spam
+  protection before launch.
 
 ## About page (`/about`)
 
-- Legal personal name of the principal consultant/responsible natural person
-- Confirmation of the correct title to use (the brief restricts "Managing Director" unless
-  legally accurate, and suggests "Founder" or "Principal Consultant" only if approved)
+- Legal personal name: **Oliver Markus Müller** — done.
+- Title used: "Founder & Managing Consultant" — done, avoids "Managing Director".
+- Career background, certifications (BAFA-listed consultant, Forschungszulage/AI R&D seal,
+  Scrum Master, Product Owner, Systemic Coach, certified mediator, Digital Transformation
+  Manager) and LinkedIn link added from the CV supplied — done. Named past employers/consulting
+  clients are listed as plain text (no logos) — see `CLAIMS-TO-VERIFY.md` item 12 for the
+  confirmation still needed.
 
 ## Brand & technical
 
-- Confirmation that `canadaeuentry.com` is the final production domain (already registered per
-  the owner) and that `www.canadaeuentry.com` (used throughout `src/lib/site.ts` and
-  metadata) is the intended canonical form, vs. the bare apex domain
-- Logo and favicon assets (none are included yet; the site currently uses a text-only wordmark)
-- Open Graph / social preview image (1200×630, referenced from `layout.tsx` metadata once
-  created)
-- Analytics tool decision (e.g., Plausible, Google Analytics with consent gating) and the
-  cookie/consent-management tool to pair with it — the brief requires no non-essential tracking
-  before consent
-- Any existing brand guidelines (exact red/blue hex values, if the owner has official brand
-  colors beyond the "Canadian red / EU blue" direction implemented here)
+- Domain confirmed: canadaeuentry.com / www.canadaeuentry.com — done (already registered).
+- Canada and EU flag icons added (header, footer, homepage hero) — done, using plain flag
+  imagery (not official government/EU wordmarks) to avoid implying official affiliation.
+- Favicon and Open Graph / social preview image — still not created; **outstanding**.
+- Analytics tool decision — still open; no tracking is enabled yet, which is compliant by
+  default.
+- Official brand color values — using the implemented Canadian red / EU blue direction; no
+  further brand guideline was supplied.
 
 ## Content
 
-- Whether any of the "[Source-verification placeholder]" statistics in `CLAIMS-TO-VERIFY.md`
-  should be sourced now or removed if they cannot be verified before launch
-- Real Market Intelligence articles (the section currently ships as an intentional empty state)
-- Decision on whether a German-language version should be built now or deferred (the site's
-  information architecture is prepared for this — see `src/lib/site.ts` `locale` field — but
-  only English is implemented)
+- Market Intelligence: a sourced "Canada–EU trade in numbers" section with linked EU sources
+  was added to `/market-intelligence`. The eight category cards remain an intentional "coming
+  soon" empty state — no fabricated articles were added, since none exist yet.
+- Homepage and First Steps guide source-verification placeholders replaced with real, linked
+  sources (Council of the EU, European Commission CETA factsheet, Global Affairs Canada,
+  Destatis) — done, see `CLAIMS-TO-VERIFY.md`.
+- German-language version — still deferred, not built.
+
+## Still needed from the business owner (summary)
+
+1. **Full street address and postal code** (for Legal Notice, Privacy Policy, Contact page).
+2. **VAT ID**, if applicable.
+3. Decision on the contact-form inbox address (`hello@canadaeuentry.com` vs. `om@onetitel.de`).
+4. Favicon / OG image assets.

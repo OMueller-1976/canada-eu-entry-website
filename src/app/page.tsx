@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
@@ -50,7 +51,11 @@ export default function HomePage() {
         <div aria-hidden="true" className="absolute inset-x-0 top-0 h-2 bg-accent" />
         <Container className="relative py-24 md:py-32">
           <div className="max-w-3xl">
-            <p className="text-sm font-bold uppercase tracking-wider text-accent">
+            <div className="flex items-center gap-2">
+              <Image src="/canada-flag.png" alt="Canada" width={32} height={17} className="h-4 w-auto rounded-[1px]" />
+              <Image src="/eu-flag.png" alt="European Union" width={32} height={20} className="h-4 w-auto rounded-[1px]" />
+            </div>
+            <p className="mt-3 text-sm font-bold uppercase tracking-wider text-accent">
               Canada–EU Market Entry Advisory &amp; Execution
             </p>
             <h1 className="mt-5 font-serif text-5xl font-bold leading-[1.05] text-navy md:text-7xl">
@@ -80,43 +85,70 @@ export default function HomePage() {
           <div className="mt-10 grid gap-8 md:grid-cols-2">
             <ul className="space-y-4 text-sm leading-relaxed text-graphite">
               <li>
-                Canada has stated an interest in diversifying its trade relationships beyond the
-                United States.{" "}
-                <span className="text-xs text-graphite/70">
-                  [Source-verification placeholder: cite Global Affairs Canada or a comparable
-                  official statement.]
-                </span>
+                Canada has publicly pursued deeper trade ties with Europe as part of diversifying
+                beyond a small number of partners, with CETA as its flagship agreement with the EU.{" "}
+                <a
+                  href="https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/ceta-aecg/index.aspx?lang=eng"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-eublue underline underline-offset-2"
+                >
+                  Source: Global Affairs Canada, CETA overview
+                </a>
               </li>
               <li>
-                The European Union is one of Canada&rsquo;s largest trading partners.{" "}
-                <span className="text-xs text-graphite/70">
-                  [Source-verification placeholder: cite European Commission or Global Affairs
-                  Canada trade statistics.]
-                </span>
+                The EU is Canada&rsquo;s second-largest trading partner after the United States,
+                with total EU–Canada trade in goods and services reaching roughly €130.8 billion in
+                2025.{" "}
+                <a
+                  href="https://www.consilium.europa.eu/en/infographics/eu-canada-trade/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-eublue underline underline-offset-2"
+                >
+                  Source: Council of the EU, EU–Canada trade in figures
+                </a>
               </li>
               <li>
-                The Canada–EU Comprehensive Economic and Trade Agreement (CETA) has reduced many
-                tariffs and trade barriers between the two economies since its provisional
-                application.{" "}
-                <span className="text-xs text-graphite/70">
-                  [Source-verification placeholder: cite European Commission CETA page.]
-                </span>
+                Since CETA&rsquo;s provisional application in September 2017, Canada and the EU
+                eliminated roughly 98% of tariff lines between them, and EU goods exports to Canada
+                have grown by around 26%, now supporting some 700,000 European jobs.{" "}
+                <a
+                  href="https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/canada/eu-canada-agreements/factsheets-and-guides/factsheet-eu-canada-trade-agreement-ceta_en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-eublue underline underline-offset-2"
+                >
+                  Source: European Commission, CETA factsheet
+                </a>
               </li>
             </ul>
             <ul className="space-y-4 text-sm leading-relaxed text-graphite">
               <li>
-                Cooperation between Canada and the EU is deepening in digital trade, security,
-                defence, technology, energy and strategic supply chains.{" "}
-                <span className="text-xs text-graphite/70">
-                  [Source-verification placeholder: cite relevant EU-Canada summit statements.]
-                </span>
+                EU foreign direct investment stock in Canada reached roughly €244.7 billion in
+                2024, with Canadian FDI in the EU at around €230 billion — reflecting deepening
+                cooperation in trade, investment, energy and technology.{" "}
+                <a
+                  href="https://www.consilium.europa.eu/en/infographics/eu-canada-trade/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-eublue underline underline-offset-2"
+                >
+                  Source: Council of the EU, EU–Canada trade in figures
+                </a>
               </li>
               <li>
-                Germany, as the EU&rsquo;s largest economy, is a major industrial and commercial
-                entry point for companies establishing a European presence.{" "}
-                <span className="text-xs text-graphite/70">
-                  [Source-verification placeholder: cite Germany Trade &amp; Invest or Destatis.]
-                </span>
+                Germany is the EU&rsquo;s largest economy by GDP, and its central location and
+                industrial base make it a common first entry point for companies establishing a
+                European presence.{" "}
+                <a
+                  href="https://www.destatis.de/EN/Home/_node.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-eublue underline underline-offset-2"
+                >
+                  Source: German Federal Statistical Office (Destatis)
+                </a>
               </li>
               <li className="font-medium text-navy">
                 Political opportunity does not remove commercial, regulatory or cultural

@@ -18,24 +18,27 @@ export default function LegalNoticePage() {
           Legal Notice (Impressum)
         </h1>
         <p className="mt-2 text-sm font-medium uppercase tracking-wider text-accent">
-          Draft — requires review and completion by a qualified German professional before
-          publication
+          Draft — street address and VAT ID still to be confirmed; please have a qualified German
+          professional review before publication
         </p>
 
         <div className="prose-onetitel mt-8">
           <h2>Information pursuant to Section 5 TMG</h2>
           <p>
-            [Placeholder: full legal name of the responsible natural person, e.g., trading as
-            &ldquo;Canada EU Entry&rdquo; / &ldquo;OneTitel&rdquo;]
+            Oliver Markus Müller
             <br />
-            [Placeholder: full serviceable business address — street, postal code, city, Germany]
+            trading as &ldquo;Canada EU Entry&rdquo; / &ldquo;OneTitel&rdquo;
+            <br />
+            [Placeholder: full street address and postal code]
+            <br />
+            Kirchweiler, Germany
           </p>
 
           <h2>Contact</h2>
           <p>
-            Telephone: [placeholder]
+            Telephone: +49 175 2079295
             <br />
-            Email: [placeholder]
+            Email: om@onetitel.de
           </p>
 
           <h2>VAT identification number</h2>
@@ -44,7 +47,11 @@ export default function LegalNoticePage() {
           </p>
 
           <h2>Responsible for content pursuant to Section 18(2) MStV</h2>
-          <p>[Placeholder: full legal name and address of the responsible natural person]</p>
+          <p>
+            Oliver Markus Müller
+            <br />
+            [Placeholder: full street address and postal code], Germany
+          </p>
 
           <h2>Professional description</h2>
           <p>

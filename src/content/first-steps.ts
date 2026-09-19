@@ -77,7 +77,7 @@ export const CHAPTERS: Chapter[] = [
       },
       {
         type: "note",
-        text: "[Source-verification placeholder: figures on German GDP, export volumes, or Mittelstand company counts should cite Destatis (German Federal Statistical Office) or Germany Trade & Invest before publication.]",
+        text: "Germany is the EU's largest economy by GDP. For current GDP, export volumes and Mittelstand company figures, see the German Federal Statistical Office (destatis.de) or Germany Trade & Invest (gtai.com).",
       },
     ],
   },
@@ -140,7 +140,7 @@ export const CHAPTERS: Chapter[] = [
       },
       {
         type: "note",
-        text: "This guide is informational and does not constitute customs or legal advice. [Source-verification placeholder: cite the European Commission's CETA page and Global Affairs Canada's CETA resources for current, authoritative detail.]",
+        text: "This guide is informational and does not constitute customs or legal advice. For current, authoritative detail on CETA, see the European Commission's CETA pages (policy.trade.ec.europa.eu) and Global Affairs Canada's CETA resources (international.gc.ca).",
       },
     ],
   },

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { NAV_LINKS, PRIMARY_CTA, SECONDARY_CTA, SITE } from "@/lib/site";
@@ -11,11 +12,29 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-navy/10 bg-offwhite/95 backdrop-blur">
       <Container className="flex h-20 items-center justify-between">
-        <Link href="/" className="flex flex-col leading-tight">
-          <span className="font-serif text-2xl font-bold uppercase tracking-tight text-navy">
-            {SITE.brand}
+        <Link href="/" className="flex items-center gap-3">
+          <span className="flex items-center -space-x-1" aria-hidden="true">
+            <Image
+              src="/canada-flag.png"
+              alt=""
+              width={30}
+              height={16}
+              className="h-4 w-auto rounded-[1px] ring-1 ring-white"
+            />
+            <Image
+              src="/eu-flag.png"
+              alt=""
+              width={30}
+              height={19}
+              className="h-4 w-auto rounded-[1px] ring-1 ring-white"
+            />
           </span>
-          <span className="text-xs font-medium text-accent">{SITE.byline}</span>
+          <span className="flex flex-col leading-tight">
+            <span className="font-serif text-2xl font-bold uppercase tracking-tight text-navy">
+              {SITE.brand}
+            </span>
+            <span className="text-xs font-medium text-accent">{SITE.byline}</span>
+          </span>
         </Link>
 
         <nav aria-label="Primary" className="hidden items-center gap-7 lg:flex">

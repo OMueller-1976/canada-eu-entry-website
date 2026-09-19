@@ -1,69 +1,74 @@
 # Factual & Legal Claims Requiring Verification Before Launch
 
-Every item below is marked in the code with a `[Source-verification placeholder]` comment or
-note so it is easy to find (search the codebase for `Source-verification` and `placeholder`).
-None of these should go live without a citation to an authoritative source or without being
-confirmed by a qualified professional.
+Update (2026-09-19): the trade/economic claims below now cite real, linked sources directly on
+the page (homepage "Why Canada and Europe are moving closer", `/market-intelligence`, and the
+First Steps guide). They still carry a residual risk noted per item — official figures are
+periodically revised, so re-check the linked primary source before any major relaunch or before
+citing these numbers in sales/marketing material outside the website.
 
-## Trade & economic claims (Homepage — "Why Canada and Europe are moving closer")
+## Trade & economic claims (Homepage, Market Intelligence, First Steps) — now sourced
 
-1. "Canada has stated an interest in diversifying its trade relationships beyond the United
-   States." — Cite Global Affairs Canada or a comparable official Government of Canada statement.
-2. "The European Union is one of Canada's largest trading partners." — Cite European Commission
-   or Global Affairs Canada trade statistics, with the specific ranking and year stated.
-3. "CETA has reduced many tariffs and trade barriers... since its provisional application." —
-   Cite the European Commission's CETA page; confirm the current tariff-elimination percentage
-   if one is quoted.
-4. "Cooperation... is deepening in digital trade, security, defence, technology, energy and
-   strategic supply chains." — Cite a specific EU–Canada summit statement, joint declaration, or
-   comparable official source.
-5. "Germany... is a major industrial and commercial entry point." — Cite Germany Trade & Invest
-   (GTAI) or Destatis (Federal Statistical Office of Germany) for any GDP, trade volume, or
-   ranking figures used to support this.
+1. EU–Canada total trade (~€130.8B in 2025, goods + services) — sourced to the Council of the
+   EU's EU–Canada trade infographic (consilium.europa.eu). Figure is dated 2025; re-check before
+   citing after a new annual release.
+2. EU is Canada's second-largest trading partner (after the US) — same Council of the EU source.
+3. CETA tariff elimination (~98% of tariff lines, since provisional application in September
+   2017) and post-CETA trade growth (+26% EU goods exports to Canada, ~700,000 EU jobs
+   supported) — sourced to the European Commission's CETA factsheet
+   (policy.trade.ec.europa.eu).
+4. EU FDI stock in Canada (~€244.7B, 2024) vs. Canadian FDI in the EU (~€230B) — Council of the
+   EU source, as above.
+5. "Germany is the EU's largest economy by GDP" — linked to Destatis (German Federal Statistical
+   Office); the exact GDP figure/ranking source should be double-checked against the latest
+   Destatis or Eurostat release before using a specific number in additional marketing copy.
 
-## Germany market claims (First Steps guide, Chapter 2 — "Why Germany")
+## German company-formation claims (First Steps guide, Chapter 10) — still needs professional review
 
-6. Any statistic on German GDP, export volume, or Mittelstand company counts. — Cite Destatis or
-   Germany Trade & Invest.
-
-## CETA claims (First Steps guide, Chapter 4)
-
-7. Specifics on tariff coverage, rules of origin, government-procurement access, and
-   temporary-entry provisions. — Cite the European Commission's CETA resources and Global
-   Affairs Canada's CETA resources; do not rely on this guide as a substitute for current,
-   authoritative CETA text.
-
-## German company-formation claims (First Steps guide, Chapter 10)
-
-8. The €25,000 GmbH nominal share-capital requirement and the general rule permitting
+6. The €25,000 GmbH nominal share-capital requirement and the general rule permitting
    registration once at least €12,500 has been paid in for a standard cash formation — confirm
    current accuracy and any exceptions with a German notary or lawyer before publishing as fact.
-9. All process steps listed (notarization, commercial register, trade registration, tax
+7. All process steps listed (notarization, commercial register, trade registration, tax
    registration, transparency register, banking/KYC, apostille and certified-translation
    requirements for Canadian corporate documents) — confirm current procedure and requirements
    with a German lawyer, tax adviser and notary.
 
-## Regulatory claims (First Steps guide, Chapter 9)
+## Regulatory claims (First Steps guide, Chapter 9) — still needs professional review
 
-10. The regulatory checklist (GDPR, CE marking, importer responsibilities, EORI, export
-    controls, etc.) is deliberately high-level and generic. Do not present any item as complete
-    or authoritative without sector-specific confirmation from a qualified specialist.
+8. The regulatory checklist (GDPR, CE marking, importer responsibilities, EORI, export
+   controls, etc.) is deliberately high-level and generic. Do not present any item as complete
+   or authoritative without sector-specific confirmation from a qualified specialist.
 
 ## Legal / positioning claims (site-wide)
 
-11. Confirm that describing the business as "OneTitel" (operating name) under the "Canada EU
-    Entry" brand is accurate and consistent with how the business is actually registered and
-    represented to customers and authorities.
-12. Confirm that no statement on the site implies official affiliation with Canada, Germany,
-    the EU, CETA, GTAI, a chamber of commerce, or a trade commissioner service — a full
-    site-wide re-read for this specific risk is recommended before launch.
-13. Confirm every guarantee-avoidance disclaimer (e.g., "cannot guarantee customer contracts,"
+9. Confirm that describing the business as "OneTitel" (operating name) under the "Canada EU
+   Entry" brand is accurate and consistent with how the business is actually registered and
+   represented to customers and authorities.
+10. Confirm that no statement on the site implies official affiliation with Canada, Germany,
+    the EU, CETA, GTAI, a chamber of commerce, or a trade commissioner service. The Canadian and
+    EU flag icons added to the header/footer/hero are used purely to indicate the two regions the
+    business connects, not as an official mark — re-confirm this reads as intended.
+11. Confirm every guarantee-avoidance disclaimer (e.g., "cannot guarantee customer contracts,"
     "cannot guarantee company-formation timelines") is legally sufficient for the jurisdictions
     in which the business operates and markets.
 
-## Legal Notice & Privacy Policy
+## About page — career history (new)
 
-14. Both `/legal-notice` and `/privacy-policy` are explicitly drafted as placeholders and are
-    marked as such on the pages themselves. They must be completed and reviewed by a qualified
-    German lawyer / data-protection professional before the site goes live — this is not
-    optional given German TMG/MStV and GDPR requirements.
+12. The About page now names specific past employers/consulting clients (Amazon Advertising
+    Germany, ProSiebenSat.1/Seven.One/Glomex, AOL Germany/Yahoo! Deutschland, Handelsblatt Media
+    Group/iq digital, Vibrant Media, ADventori, The Channel Company/CRN Germany, Vogel
+    IT-Medien, WESER-KURIER, publish-industry Verlag) as plain-text career history, based on the
+    CV supplied by the business owner. No logos or trademarks are used. Confirm this framing
+    (past employment/consulting, explicitly not a current partnership or endorsement) is
+    acceptable, and flag if any of these names should not be mentioned publicly.
+13. "BAFA-listed management consultant" and the "research-and-development (Forschungszulage)
+    certification seal for an AI-driven project" are stated as given by the business owner —
+    confirm exact wording/scope is accurate before publishing, since these read as formal
+    credentials.
+
+## Legal Notice & Privacy Policy — partially completed
+
+14. `/legal-notice` and `/privacy-policy` now include the confirmed name (Oliver Markus Müller),
+    phone, email and general location (Kirchweiler). They still need: the full street address
+    and postal code, and the VAT ID (if applicable) — see `MISSING-INFORMATION.md`. Have a
+    qualified German lawyer / data-protection professional review both pages once those are
+    filled in, before the site goes live.

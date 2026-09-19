@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Container from "./Container";
 import { FOOTER_LINKS, NAV_LINKS, SITE } from "@/lib/site";
@@ -54,7 +55,13 @@ export default function Footer() {
             © {new Date().getFullYear()} {SITE.name}. General information only — not legal, tax
             or customs advice.
           </p>
-          <p>Based in Germany, serving Canadian companies entering the European Union.</p>
+          <p className="flex items-center gap-2">
+            <span className="flex items-center gap-1" aria-hidden="true">
+              <Image src="/canada-flag.png" alt="" width={24} height={13} className="h-3 w-auto rounded-[1px]" />
+              <Image src="/eu-flag.png" alt="" width={24} height={15} className="h-3 w-auto rounded-[1px]" />
+            </span>
+            Based in Germany, serving Canadian companies entering the European Union.
+          </p>
         </Container>
       </div>
     </footer>

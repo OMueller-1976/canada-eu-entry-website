@@ -6,7 +6,7 @@ import CtaBanner from "@/components/CtaBanner";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Canada EU Entry, by OneTitel, is an independent market-entry consultancy based in Germany, combining strategic advisory, commercial implementation and market intelligence for Canadian companies.",
+    "Canada EU Entry, by OneTitel, is an independent market-entry consultancy based in Germany, led by Oliver Markus Müller — 20+ years in international sales, digital business and go-to-market strategy.",
   alternates: { canonical: "/about" },
 };
 
@@ -45,13 +45,64 @@ export default function AboutPage() {
               trusted, appropriately licensed independent professionals, and keeps their fees and
               scope clearly separate from its own.
             </p>
+
+            <h2>Oliver Markus Müller — Founder &amp; Managing Consultant</h2>
+            <p>
+              Canada EU Entry is led by Oliver Markus Müller, founder of OneTitel and the principal
+              consultant behind every engagement. He brings more than 20 years of international
+              experience in sales, go-to-market strategy and digital business — spanning AdTech,
+              SaaS, media and platform companies — including senior and interim leadership roles
+              with P&amp;L responsibility of up to €8 million and disciplinary leadership of teams
+              of up to seven people.
+            </p>
+            <p>
+              His background covers enterprise sales and key account management, market-entry and
+              go-to-market strategy, business development and revenue scaling, programmatic
+              advertising and data-driven marketing, and agile project and organizational
+              leadership. Over his career he has led go-to-market, sales and commercialization
+              mandates — as both an employee and an interim/consulting lead — for companies
+              including Amazon Advertising Germany, ProSiebenSat.1 Media SE / Seven.One / Glomex,
+              AOL Germany / Yahoo! Deutschland (Verizon Media), Handelsblatt Media Group (iq
+              digital), Vibrant Media, ADventori (Paris/Frankfurt), The Channel Company (CRN
+              Germany), Vogel IT-Medien, WESER-KURIER and publish-industry Verlag. These are past
+              employment, interim-management or consulting engagements, not current partnerships,
+              client relationships or endorsements, and are named here solely as professional
+              background.
+            </p>
+            <p>
+              He is a{" "}
+              <strong>BAFA-listed management consultant</strong>, registered with Germany&rsquo;s
+              Federal Office for Economic Affairs and Export Control (BAFA) for subsidized SME
+              consulting (Beratungsförderung), and holds a research-and-development certification
+              (Forschungszulage) seal for an AI-driven project. He is also a certified Scrum
+              Master and Product Owner, a Systemic Coach (QRC), a certified mediator
+              (ZMediatAusbV), and a Digital Transformation Manager (AI), and is the author of two
+              publications on digital marketing and transformation:{" "}
+              <em>The Digital Utopia — How Online Marketing Creates a New Paradigm</em> and{" "}
+              <em>Opportunities of Digital Transformation</em>.
+            </p>
+            <p>
+              <a
+                href="https://www.linkedin.com/in/oliver-m-mueller/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-eublue underline underline-offset-2"
+              >
+                Connect on LinkedIn
+              </a>
+            </p>
+
             <h2>Operating basis</h2>
             <p>
               Canada EU Entry currently operates on a freelance / sole-proprietor basis under
-              OneTitel. [Placeholder: legal personal name of the responsible natural person]
-              is the principal consultant and the person responsible for this website&rsquo;s content.
-              [Placeholder: registered business address] and [placeholder: contact details] are
-              provided in the Legal Notice.
+              OneTitel (Oliver Markus Müller), based in Kirchweiler, Rhineland-Palatinate,
+              Germany. Oliver Markus Müller is the principal consultant and the person responsible
+              for this website&rsquo;s content. The full registered business address and contact
+              details are provided in the{" "}
+              <a href="/legal-notice" className="text-eublue underline underline-offset-2">
+                Legal Notice
+              </a>
+              .
             </p>
             <p className="text-sm text-graphite/70">
               [Editorial note: do not describe the business as a GmbH, do not use the title

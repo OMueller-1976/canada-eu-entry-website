@@ -70,6 +70,83 @@ export default function MarketIntelligencePage() {
         </Container>
       </section>
 
+      <section className="border-b border-navy/10 bg-white py-16 md:py-20">
+        <Container>
+          <p className="text-sm font-bold uppercase tracking-wider text-accent">
+            Canada–EU trade in numbers
+          </p>
+          <h2 className="mt-2 font-serif text-2xl font-bold text-navy md:text-3xl">
+            The current baseline, with sources
+          </h2>
+          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="border border-navy/10 bg-offwhite p-6">
+              <p className="font-serif text-3xl font-bold text-navy">€130.8B</p>
+              <p className="mt-2 text-sm leading-relaxed text-graphite">
+                Total EU–Canada trade in goods and services, 2025.
+              </p>
+              <a
+                href="https://www.consilium.europa.eu/en/infographics/eu-canada-trade/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-block text-xs text-eublue underline underline-offset-2"
+              >
+                Council of the EU
+              </a>
+            </div>
+            <div className="border border-navy/10 bg-offwhite p-6">
+              <p className="font-serif text-3xl font-bold text-navy">98%</p>
+              <p className="mt-2 text-sm leading-relaxed text-graphite">
+                Of tariff lines eliminated between Canada and the EU since CETA&rsquo;s
+                provisional application in September 2017.
+              </p>
+              <a
+                href="https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/canada/eu-canada-agreements/factsheets-and-guides/factsheet-eu-canada-trade-agreement-ceta_en"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-block text-xs text-eublue underline underline-offset-2"
+              >
+                European Commission
+              </a>
+            </div>
+            <div className="border border-navy/10 bg-offwhite p-6">
+              <p className="font-serif text-3xl font-bold text-navy">+26%</p>
+              <p className="mt-2 text-sm leading-relaxed text-graphite">
+                Growth in EU goods exports to Canada since CETA, now supporting an estimated
+                700,000 European jobs.
+              </p>
+              <a
+                href="https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/canada/eu-canada-agreements/factsheets-and-guides/factsheet-eu-canada-trade-agreement-ceta_en"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-block text-xs text-eublue underline underline-offset-2"
+              >
+                European Commission
+              </a>
+            </div>
+            <div className="border border-navy/10 bg-offwhite p-6">
+              <p className="font-serif text-3xl font-bold text-navy">€244.7B</p>
+              <p className="mt-2 text-sm leading-relaxed text-graphite">
+                EU foreign direct investment stock in Canada, 2024 — versus roughly €230B of
+                Canadian FDI in the EU.
+              </p>
+              <a
+                href="https://www.consilium.europa.eu/en/infographics/eu-canada-trade/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-block text-xs text-eublue underline underline-offset-2"
+              >
+                Council of the EU
+              </a>
+            </div>
+          </div>
+          <p className="mt-6 max-w-2xl text-xs leading-relaxed text-graphite/60">
+            Figures are the latest official EU/European Commission figures available at the time
+            of writing and are subject to periodic revision — always check the linked primary
+            source before citing them externally.
+          </p>
+        </Container>
+      </section>
+
       <section className="py-16 md:py-24">
         <Container>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

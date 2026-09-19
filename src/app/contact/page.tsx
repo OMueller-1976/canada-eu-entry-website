@@ -267,13 +267,24 @@ export default function ContactPage() {
           <aside className="h-fit border border-navy/15 bg-white p-6 text-sm text-graphite">
             <p className="font-serif text-lg font-semibold text-navy">Direct contact</p>
             <p className="mt-3">
-              Email: <span className="text-navy">[placeholder: production contact email]</span>
+              Email: <span className="text-navy">om@onetitel.de</span>
             </p>
             <p className="mt-2">
-              Phone: <span className="text-navy">[placeholder: business phone number]</span>
+              Phone: <span className="text-navy">+49 175 2079295</span>
             </p>
             <p className="mt-2">
               Address: <span className="text-navy">[placeholder: registered business address]</span>
+            </p>
+            <p className="mt-2">
+              LinkedIn:{" "}
+              <a
+                href="https://www.linkedin.com/in/oliver-m-mueller/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-eublue underline underline-offset-2"
+              >
+                Oliver M. Müller
+              </a>
             </p>
             <p className="mt-5 text-xs text-graphite/70">
               Full legal contact details are published in the Legal Notice.
