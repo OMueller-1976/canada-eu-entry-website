@@ -65,10 +65,13 @@ citing these numbers in sales/marketing material outside the website.
     confirm exact wording/scope is accurate before publishing, since these read as formal
     credentials.
 
-## Legal Notice & Privacy Policy — partially completed
+## Legal Notice & Privacy Policy — content complete, professional sign-off still recommended
 
-14. `/legal-notice` and `/privacy-policy` now include the confirmed name (Oliver Markus Müller),
-    phone, email and general location (Kirchweiler). They still need: the full street address
-    and postal code, and the VAT ID (if applicable) — see `MISSING-INFORMATION.md`. Have a
-    qualified German lawyer / data-protection professional review both pages once those are
-    filled in, before the site goes live.
+14. `/legal-notice` and `/privacy-policy` are now fully filled in: name, full address (Am
+    Bruchborn 6, 54570 Kirchweiler), email (euentry@onetitel.de), VAT ID (DE 326064654), a
+    Section 5 DDG designation (replacing the outdated Section 5 TMG reference, since the TMG was
+    replaced by the DDG on 14 May 2024), a dispute-resolution section reflecting the EU ODR
+    platform's discontinuation (20 July 2025) plus the Section 36 VSBG statement, and standard
+    liability-for-content/links and copyright sections. No `[Placeholder]` text remains. A final
+    read-through by a qualified German lawyer / data-protection professional is still
+    recommended before the site goes live, but is no longer a hard blocker.

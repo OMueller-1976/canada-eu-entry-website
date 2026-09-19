@@ -90,8 +90,19 @@ provided (CV, onetitel.de, direct instruction). Two items remain outstanding and
 - Header nav spacing/sizing fixed to stop wrapping; Canada/EU flags removed from the header only
   (kept in the homepage hero and footer).
 
+## Resolved (2026-09-19, third pass)
+
+- Legal Notice is now fully drafted, including: updated to Section 5 DDG (the TMG was replaced
+  by the Digitale-Dienste-Gesetz on 14 May 2024); a Dispute Resolution section reflecting that
+  the EU ODR platform was discontinued on 20 July 2025 (no longer referenced/linked) plus the
+  Section 36 VSBG non-participation statement; full liability-for-content, liability-for-links
+  and copyright sections using standard German boilerplate language.
+- No more `[Placeholder]` text remains on `/legal-notice`.
+
 ## Still needed from the business owner (summary)
 
 1. Favicon / OG image assets.
-2. Final review of the Legal Notice's dispute-resolution (ODR) and liability sections, and the
-   Privacy Policy's hosting/processor list, by a qualified German professional.
+2. Final sign-off of the Legal Notice by a qualified German lawyer is still recommended
+   (content is complete and researched, not a placeholder, but a professional review before
+   go-live is good practice).
+3. Privacy Policy: final hosting/processor list confirmation once the tech stack is locked in.
