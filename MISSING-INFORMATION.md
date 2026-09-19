@@ -78,9 +78,20 @@ provided (CV, onetitel.de, direct instruction). Two items remain outstanding and
   Destatis) — done, see `CLAIMS-TO-VERIFY.md`.
 - German-language version — still deferred, not built.
 
+## Resolved (2026-09-19, second pass)
+
+- Full street address: **Am Bruchborn 6, 54570 Kirchweiler, Germany** — now on Legal Notice,
+  Privacy Policy and Contact page.
+- VAT ID: **DE 326064654** — now on Legal Notice.
+- Contact email switched to **euentry@onetitel.de** site-wide (was `hello@canadaeuentry.com` /
+  `om@onetitel.de`).
+- Phone number removed from the site entirely, per the business owner's instruction.
+- About page editorial note removed.
+- Header nav spacing/sizing fixed to stop wrapping; Canada/EU flags removed from the header only
+  (kept in the homepage hero and footer).
+
 ## Still needed from the business owner (summary)
 
-1. **Full street address and postal code** (for Legal Notice, Privacy Policy, Contact page).
-2. **VAT ID**, if applicable.
-3. Decision on the contact-form inbox address (`hello@canadaeuentry.com` vs. `om@onetitel.de`).
-4. Favicon / OG image assets.
+1. Favicon / OG image assets.
+2. Final review of the Legal Notice's dispute-resolution (ODR) and liability sections, and the
+   Privacy Policy's hosting/processor list, by a qualified German professional.

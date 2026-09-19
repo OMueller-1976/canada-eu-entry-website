@@ -104,11 +104,6 @@ export default function AboutPage() {
               </a>
               .
             </p>
-            <p className="text-sm text-graphite/70">
-              [Editorial note: do not describe the business as a GmbH, do not use the title
-              &ldquo;Managing Director,&rdquo; and do not reference offices, employees or partnerships unless
-              and until these are factually accurate and confirmed by the business owner.]
-            </p>
           </div>
         </Container>
       </section>

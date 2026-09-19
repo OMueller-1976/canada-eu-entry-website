@@ -9,7 +9,7 @@ export const SITE = {
   fullName: "Canada EU Entry – Market Entry Agency & Consultancy",
   tagline: "Your commercial landing consultancy for the European Union, based in Germany.",
   url: "https://www.canadaeuentry.com",
-  email: "hello@canadaeuentry.com", // TODO: confirm production contact email
+  email: "euentry@onetitel.de",
   locale: "en-CA",
 };
 

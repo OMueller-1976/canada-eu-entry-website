@@ -15,16 +15,16 @@ export default function PrivacyPolicyPage() {
         <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/privacy-policy", label: "Privacy Policy" }]} />
         <h1 className="mt-6 font-serif text-3xl font-semibold text-navy">Privacy Policy</h1>
         <p className="mt-2 text-sm font-medium uppercase tracking-wider text-accent">
-          Draft — street address still to be confirmed; please have a qualified German/EU
-          data-protection professional review before publication
+          Draft — please have a qualified German/EU data-protection professional review before
+          publication
         </p>
 
         <div className="prose-onetitel mt-8">
           <h2>1. Controller</h2>
           <p>
             Oliver Markus Müller, trading as &ldquo;Canada EU Entry&rdquo; / &ldquo;OneTitel&rdquo;,
-            [Placeholder: full street address and postal code], Kirchweiler, Germany. Contact for
-            data-protection matters: om@onetitel.de.
+            Am Bruchborn 6, 54570 Kirchweiler, Germany. Contact for data-protection matters:
+            euentry@onetitel.de.
           </p>
 
           <h2>2. What data we process</h2>
@@ -97,14 +97,13 @@ export default function PrivacyPolicyPage() {
           <p>
             Under the GDPR, you have the right to access, rectify, erase, restrict or object to
             the processing of your personal data, and the right to data portability and to lodge
-            a complaint with a supervisory authority. Based in Rhineland-Palatinate, the
-            competent supervisory authority is expected to be the{" "}
+            a complaint with a supervisory authority. Based in Kirchweiler,
+            Rhineland-Palatinate, the competent supervisory authority is the{" "}
             <em>
               Landesbeauftragte für den Datenschutz und die Informationsfreiheit
               Rheinland-Pfalz (LfDI RLP)
             </em>
-            . [Placeholder: confirm the competent supervisory authority once the controller&rsquo;s
-            registered address is finalized.]
+            .
           </p>
         </div>
       </Container>

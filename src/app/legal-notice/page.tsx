@@ -18,8 +18,8 @@ export default function LegalNoticePage() {
           Legal Notice (Impressum)
         </h1>
         <p className="mt-2 text-sm font-medium uppercase tracking-wider text-accent">
-          Draft — street address and VAT ID still to be confirmed; please have a qualified German
-          professional review before publication
+          Draft — the dispute-resolution and liability sections still require review by a
+          qualified German professional before publication
         </p>
 
         <div className="prose-onetitel mt-8">
@@ -29,28 +29,25 @@ export default function LegalNoticePage() {
             <br />
             trading as &ldquo;Canada EU Entry&rdquo; / &ldquo;OneTitel&rdquo;
             <br />
-            [Placeholder: full street address and postal code]
+            Am Bruchborn 6
             <br />
-            Kirchweiler, Germany
+            54570 Kirchweiler, Germany
           </p>
 
           <h2>Contact</h2>
-          <p>
-            Telephone: +49 175 2079295
-            <br />
-            Email: om@onetitel.de
-          </p>
+          <p>Email: euentry@onetitel.de</p>
 
           <h2>VAT identification number</h2>
           <p>
-            [Placeholder: VAT ID pursuant to Section 27a of the German VAT Act, if applicable]
+            VAT identification number pursuant to Section 27a of the German VAT Act (UStG):
+            DE 326064654
           </p>
 
           <h2>Responsible for content pursuant to Section 18(2) MStV</h2>
           <p>
             Oliver Markus Müller
             <br />
-            [Placeholder: full street address and postal code], Germany
+            Am Bruchborn 6, 54570 Kirchweiler, Germany
           </p>
 
           <h2>Professional description</h2>
