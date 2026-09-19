@@ -75,3 +75,16 @@ citing these numbers in sales/marketing material outside the website.
     liability-for-content/links and copyright sections. No `[Placeholder]` text remains. A final
     read-through by a qualified German lawyer / data-protection professional is still
     recommended before the site goes live, but is no longer a hard blocker.
+
+## About page — network and academic advisors (new, 2026-09-19)
+
+15. A new "Network & Expertise" section on `/about` states, per the business owner's
+    instruction, that OneTitel draws on an industry network spanning FMCG, IT & consumer
+    electronics, mechanical engineering (Maschinenbau), automotive and digital/media, and that
+    it maintains "an ongoing exchange with two professors at German universities" for academic
+    and research input. Deliberately kept general (no specific company names, professor names,
+    or university names, since none were supplied) to avoid an unverifiable or misleading
+    specific claim. If challenged, the business owner should be able to point to concrete
+    contacts/relationships behind each named sector and behind the two-professor claim. Confirm
+    this wording is accurate to how the network and advisory relationships actually work, and
+    supply specific names/universities if you'd like them named on the page.

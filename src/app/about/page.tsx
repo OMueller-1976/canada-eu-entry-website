@@ -45,7 +45,56 @@ export default function AboutPage() {
               trusted, appropriately licensed independent professionals, and keeps their fees and
               scope clearly separate from its own.
             </p>
+          </div>
+        </Container>
+      </section>
 
+      <section className="border-y border-navy/10 bg-offwhite py-16 md:py-20">
+        <Container className="max-w-3xl">
+          <p className="text-sm font-bold uppercase tracking-wider text-accent">
+            Network &amp; Expertise
+          </p>
+          <h2 className="mt-2 font-serif text-2xl font-bold text-navy md:text-3xl">
+            A network built across industries, not just one CV
+          </h2>
+          <p className="mt-4 text-base leading-relaxed text-graphite">
+            More than 20 years of international sales, go-to-market and digital-business work
+            leave behind more than a career history — they leave a working network of industry
+            contacts, former colleagues and specialist partners. OneTitel draws on that network
+            for every engagement, with particular depth in the sectors most relevant to Canadian
+            companies entering Germany and the EU:
+          </p>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+            {[
+              { label: "FMCG", note: "Fast-moving consumer goods" },
+              { label: "IT & CE", note: "IT and consumer electronics" },
+              { label: "Mechanical Engineering", note: "Maschinenbau" },
+              { label: "Automotive", note: "Automotive supply and OEM" },
+              { label: "Digital & Media", note: "AdTech, SaaS and platforms" },
+            ].map((sector) => (
+              <div
+                key={sector.label}
+                className="border border-navy/15 bg-white p-5 text-center"
+              >
+                <p className="font-serif text-base font-bold leading-tight text-navy">
+                  {sector.label}
+                </p>
+                <p className="mt-2 text-xs leading-snug text-graphite/70">{sector.note}</p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 text-base leading-relaxed text-graphite">
+            OneTitel also maintains an ongoing exchange with two professors at German
+            universities, who contribute an academic and research perspective — particularly on
+            digital transformation, innovation management and international business — alongside
+            the hands-on commercial work of each client engagement.
+          </p>
+        </Container>
+      </section>
+
+      <section className="py-16 md:py-24">
+        <Container className="max-w-3xl">
+          <div className="prose-onetitel">
             <h2>Oliver Markus Müller — Founder &amp; Managing Consultant</h2>
             <p>
               Canada EU Entry is led by Oliver Markus Müller, founder of OneTitel and the principal
