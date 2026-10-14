@@ -2,7 +2,7 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["JJ5A463Z26.com.onetitel.subpoenaseason"],
+        "appIDs": ["DMGS3JNB9Q.com.onetitel.subpoenaseason"],
         "components": [
           { "/": "/subpoena-season/join/*" },
           { "/": "/subpoena-season/card/*" }

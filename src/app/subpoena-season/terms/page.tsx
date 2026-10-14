@@ -43,11 +43,12 @@ export default function Page() {
 
       <h2>4. Purchases</h2>
       <p>
-        The App is sold through the Apple App Store. Optional in-app purchases (for example
-        &ldquo;League Pass&rdquo;) are one-time, non-consumable purchases unless stated
-        otherwise in the App Store listing. Prices, taxes, billing, refunds and Apple&rsquo;s
-        usage rules are governed by Apple&rsquo;s terms. Where you are an EU consumer, your
-        statutory withdrawal rights are not affected by these terms.
+        The App is sold through the Apple App Store as a one-time purchase. Optional in-app
+        purchases (for example &ldquo;League Pass&rdquo;) may be offered in later versions and
+        are one-time, non-consumable purchases unless stated otherwise in the App Store
+        listing. Prices, taxes, billing, refunds and Apple&rsquo;s usage rules are governed by
+        Apple&rsquo;s terms. Where you are an EU consumer, your statutory withdrawal rights are
+        not affected by these terms.
       </p>
 
       <h2>5. Your content (custom cards, names, reasons)</h2>

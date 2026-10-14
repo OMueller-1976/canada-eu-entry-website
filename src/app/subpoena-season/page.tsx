@@ -65,8 +65,8 @@ const FAQ = [
   ["Can I win money?", "No. No real-money bets, no stakes, no prizes. Bragging rights only, and those are non-transferable."],
   ["Who is behind it?", "An independent developer in Germany. Not affiliated with any government, party, campaign or depicted person."],
   ["Is it on Android?", "Not yet. iPhone first, because we have a deadline called November 3."],
-  ["Will there be leagues with friends?", "Yes, planned for a post-election update: private leagues, invite links, leaderboards. League Pass is a one-time in-app purchase, also required for invited friends."],
-  ["What does it cost?", "One-time purchase on the App Store. No ads, no tracking, no subscription."],
+  ["Will there be leagues with friends?", "Yes, planned for a post-election update: private leagues, invite links, leaderboards. League Pass ($9.99, one-time in-app purchase) is also required for invited friends."],
+  ["What does it cost?", "One-time purchase of $4.99 on the App Store. No ads, no tracking, no subscription."],
 ];
 
 export default function SubpoenaSeasonPage() {
