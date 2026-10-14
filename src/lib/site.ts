@@ -24,6 +24,7 @@ export const NAV_LINKS = [
 ];
 
 export const FOOTER_LINKS = [
+  { href: "/subpoena-season", label: "Subpoena Season (App)" },
   { href: "/legal-notice", label: "Legal Notice" },
   { href: "/privacy-policy", label: "Privacy Policy" },
   { href: "/contact", label: "Contact" },

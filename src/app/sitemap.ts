@@ -16,6 +16,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/contact",
     "/faq",
+    "/subpoena-season",
+    "/subpoena-season/support",
+    "/subpoena-season/terms",
+    "/subpoena-season/privacy",
+    "/subpoena-season/rules",
     "/legal-notice",
     "/privacy-policy",
   ];
