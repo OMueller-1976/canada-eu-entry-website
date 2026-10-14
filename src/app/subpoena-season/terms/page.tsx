@@ -14,7 +14,6 @@ export default function Page() {
       path="/subpoena-season/terms"
       label="Terms of Use"
       title="Terms of Use – Subpoena Season"
-      note="Draft — to be reviewed by a qualified lawyer (DE and US) before the App Store release"
     >
       <h2>1. Provider and scope</h2>
       <p>
@@ -82,7 +81,7 @@ export default function Page() {
       <h2>8. Availability and changes</h2>
       <p>
         We may update, change or discontinue features. Daily content and sources may change as
-        facts develop. Content marked as draft is not final.
+        facts develop.
       </p>
 
       <h2>9. Warranty and liability</h2>

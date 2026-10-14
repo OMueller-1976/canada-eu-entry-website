@@ -14,7 +14,6 @@ export default function Page() {
       path="/subpoena-season/privacy"
       label="Privacy Policy"
       title="Privacy Policy – Subpoena Season"
-      note="Draft — to be reviewed by a qualified data-protection professional before the App Store release"
     >
       <h2>1. Controller</h2>
       <p>
@@ -67,7 +66,6 @@ export default function Page() {
         Apple Inc. (App Store, purchases). Hosting provider of this website: Vercel Inc.
         Backend provider for planned features: Supabase. Transfers outside the EU/EEA rely on
         adequacy decisions or Standard Contractual Clauses where applicable.
-        [Placeholder: confirm final provider list and data-processing agreements.]
       </p>
 
       <h2>6. Retention</h2>

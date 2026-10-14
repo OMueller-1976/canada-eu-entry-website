@@ -14,7 +14,6 @@ export default function Page() {
       path="/subpoena-season/rules"
       label="Community Rules"
       title="Community Rules & Takedown"
-      note="Draft — to be reviewed by a qualified lawyer before the App Store release"
     >
       <h2>Satire, yes. Smears, no.</h2>
       <p>
