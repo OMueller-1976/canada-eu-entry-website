@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import Container from "@/components/Container";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ChapterBlocks from "@/components/ChapterBlocks";
@@ -23,35 +24,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
 export default function MarketIntelligenceArticlePage({ params }: { params: { slug: string } }) {
   const article = getArticleBySlug(params.slug);
 
-  if (!article) {
-    // Reusable article template for Market Intelligence content that has not been written yet.
-    return (
-      <section className="py-16 md:py-24">
-        <Container className="max-w-3xl">
-          <Breadcrumbs
-            items={[
-              { href: "/", label: "Home" },
-              { href: "/market-intelligence", label: "Market Intelligence" },
-              { href: `/market-intelligence/${params.slug}`, label: "Article" },
-            ]}
-          />
-          <div className="prose-onetitel mt-8">
-            <h1 className="font-serif text-3xl font-semibold text-navy">
-              [Article title placeholder]
-            </h1>
-            <p className="text-sm text-graphite/70">
-              [Category] · [Publish date] · [Author]
-            </p>
-            <p>
-              This is the reusable template for Market Intelligence articles. Replace this
-              placeholder with the article body once content is written and reviewed. Do not
-              publish a real-looking date or byline until the article actually exists.
-            </p>
-          </div>
-        </Container>
-      </section>
-    );
-  }
+  if (!article) notFound();
 
   return (
     <section className="py-16 md:py-24">

@@ -258,10 +258,6 @@ export default function ContactPage() {
             >
               Send inquiry
             </button>
-            <p className="text-xs text-graphite/70">
-              [Implementation note: replace this mailto-based form with a proper form handler
-              (e.g., a serverless function or form service) with spam protection before launch.]
-            </p>
           </form>
 
           <aside className="h-fit border border-navy/15 bg-white p-6 text-sm text-graphite">

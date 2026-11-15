@@ -17,10 +17,6 @@ export default function LegalNoticePage() {
         <h1 className="mt-6 font-serif text-3xl font-semibold text-navy">
           Legal Notice (Impressum)
         </h1>
-        <p className="mt-2 text-sm font-medium uppercase tracking-wider text-accent">
-          Content below is complete based on information currently available; a final review by
-          a qualified German lawyer is still recommended before publication
-        </p>
 
         <div className="prose-onetitel mt-8">
           <h2>Information pursuant to Section 5 DDG</h2>
