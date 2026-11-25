@@ -18,8 +18,9 @@ export default function Page() {
       <h2>Satire, yes. Smears, no.</h2>
       <p>
         Subpoena Season is political satire about public figures and their public conduct. To
-        keep it that way, content you create (custom cards, names, reasons) must follow these
-        rules.
+        keep it that way, content you create (custom cards, names, reasons, league display
+        names) must follow these rules. Nothing in the App is a statement of fact, and nothing
+        in it implies that anyone is guilty of anything. Everyone is presumed innocent.
       </p>
       <h3>Not allowed</h3>
       <ul>
@@ -50,8 +51,9 @@ export default function Page() {
       </ul>
       <p>
         We review notices promptly, correct factual errors, and remove or change content where
-        appropriate. We may remove user content and restrict features for violations of these
-        rules.
+        appropriate. We may remove user content, remove members from leagues and suspend
+        accounts for violations of these rules. League display names and invite codes are
+        user content too.
       </p>
     </AppLegalPage>
   );

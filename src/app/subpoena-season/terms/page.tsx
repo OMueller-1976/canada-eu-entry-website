@@ -33,6 +33,17 @@ export default function Page() {
         information at the time of writing. The App is not affiliated with or endorsed by any
         government, agency, party, campaign or depicted person.
       </p>
+      <p>
+        Any depiction of a real person is a humorous exaggeration and expression of opinion
+        protected as satire and parody (for example under the First Amendment of the US
+        Constitution, Section 2(b) of the Canadian Charter of Rights and Freedoms and Article 5
+        of the German Basic Law). It is not meant to be taken as a statement of fact, and no
+        reasonable person should understand it as one. Real-world events shown in the App
+        (such as subpoenas or hearings) are reported from public sources, are marked with a
+        source where possible and do not imply guilt. In-game rankings, odds, discounts,
+        &ldquo;control&rdquo; labels and scores are fictional game mechanics and not
+        predictions, forecasts or election results.
+      </p>
       <p>By continuing in the App you confirm that you understand and accept this.</p>
 
       <h2>3. Game only – no gambling</h2>
@@ -43,10 +54,10 @@ export default function Page() {
 
       <h2>4. Purchases</h2>
       <p>
-        The App is sold through the Apple App Store as a one-time purchase. Optional in-app
-        purchases (for example &ldquo;League Pass&rdquo;) may be offered in later versions and
-        are one-time, non-consumable purchases unless stated otherwise in the App Store
-        listing. Prices, taxes, billing, refunds and Apple&rsquo;s usage rules are governed by
+        The App is sold through the Apple App Store as a one-time purchase. The optional
+        in-app purchase &ldquo;League Pass&rdquo; unlocks creating and joining friend leagues.
+        It is a one-time, non-consumable purchase tied to your Apple ID. We verify it on our
+        server using the signed transaction data provided by Apple. Prices, taxes, billing, refunds and Apple&rsquo;s usage rules are governed by
         Apple&rsquo;s terms. Where you are an EU consumer, your statutory withdrawal rights are
         not affected by these terms.
       </p>
@@ -58,10 +69,10 @@ export default function Page() {
         content does not depict private individuals without consent, minors, nudity, or
         violence; does not contain hate speech, harassment, threats, invented quotes presented
         as real, or allegations of criminal conduct presented as fact; and does not violate law
-        or third-party rights. See the <a href="/subpoena-season/rules">Community Rules</a>. In
-        the current version custom content is stored on your device only. If shared features
-        (e.g. leagues) are introduced, you grant us a limited licence to host and display your
-        content within those features, and we may remove content that violates these terms.
+        or third-party rights. See the <a href="/subpoena-season/rules">Community Rules</a>. Custom
+        content stays on your device. Content you share in leagues (such as your display name
+        and picks) is hosted on our backend; you grant us a limited licence to host and display
+        it within those features, and we may remove content that violates these terms.
       </p>
 
       <h2>6. Licence and restrictions</h2>
@@ -72,11 +83,14 @@ export default function Page() {
         impersonate a real person.
       </p>
 
-      <h2>7. Accounts and leagues (planned)</h2>
+      <h2>7. Accounts and leagues</h2>
       <p>
-        Future versions may offer accounts (e.g. Sign in with Apple), private leagues and
-        invite links. Additional terms may apply and will be shown before you use these
-        features. You can delete your account in the App once accounts are available.
+        Friend leagues require an account via Sign in with Apple and the League Pass. Leagues
+        are private games between friends using invite codes or links. League scores are
+        calculated from publicly reported events and confirmed by us; we may correct or
+        retract an event or score at any time. Scores are for fun only and have no monetary
+        value. You can delete your account in the App (Profile &gt; Delete account). We may
+        suspend accounts that violate these terms or the Community Rules.
       </p>
 
       <h2>8. Availability and changes</h2>

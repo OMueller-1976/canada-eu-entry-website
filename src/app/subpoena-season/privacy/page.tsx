@@ -22,10 +22,24 @@ export default function Page() {
         <a href="/privacy-policy">website Privacy Policy</a>.
       </p>
 
-      <h2>2. Short version (current app version)</h2>
+      <h2>2. Short version</h2>
       <ul>
-        <li>No account is required. No advertising. No third-party tracking or analytics SDKs.</li>
-        <li>Your name, picks, custom cards, photos you choose and game results stay on your device.</li>
+        <li>
+          Subpoena Season is political <strong>satire and parody</strong>. It is a game, not news
+          reporting.
+        </li>
+        <li>
+          No account is needed for the core game. No advertising. No third-party tracking or
+          analytics SDKs.
+        </li>
+        <li>
+          Without an account, your name, picks, custom cards, photos you choose and game results
+          stay on your device.
+        </li>
+        <li>
+          Friend leagues (optional) require Sign in with Apple. Then your display name, picks
+          and scores are stored on our backend so that leagues and leaderboards work.
+        </li>
         <li>Purchases are processed by Apple; we receive no payment details.</li>
       </ul>
 
@@ -51,34 +65,59 @@ export default function Page() {
         </li>
       </ul>
 
-      <h2>4. Planned features: accounts and leagues</h2>
+      <h2>4. Accounts and friend leagues (optional)</h2>
       <p>
-        If we release accounts and leagues, we will process (via our backend provider Supabase,
-        with servers in the EU/US as configured): an account identifier (Sign in with Apple,
-        with an optional private relay email), your display name, picks, league memberships,
-        scores and content you choose to share. Purpose: operate leagues and leaderboards
-        (Art. 6(1)(b) GDPR). Account deletion will be available in the app. This policy will be
-        updated and shown before these features go live.
+        If you sign in with Apple to use friend leagues, we process via our backend provider
+        Supabase (database and server functions hosted in the United States, AWS us-east-2):
+      </p>
+      <ul>
+        <li>
+          an account identifier from Sign in with Apple and, if you choose to share it, your
+          email address or Apple&rsquo;s private relay address;
+        </li>
+        <li>your display name, your picks, league memberships, invite codes and scores;</li>
+        <li>
+          for the League Pass: the signed transaction data Apple provides for your purchase
+          (product and transaction ID), which our server verifies against Apple&rsquo;s
+          certificates to unlock league features; we receive no card or payment details;
+        </li>
+        <li>reports you send us about content, and technical logs needed to run and secure the service.</li>
+      </ul>
+      <p>
+        Purpose: operate leagues, leaderboards and the purchase check, and keep the service
+        secure (Art. 6(1)(b) and (f) GDPR). Other members of your leagues can see your display
+        name, picks and score within that league. Do not use your real name if you do not want
+        that. <strong>You can delete your account at any time in the app (Profile &gt; Delete
+        account)</strong>; this removes your server-side data, subject to legal retention duties.
+      </p>
+      <p>
+        League results are based on publicly reported events (such as congressional subpoenas)
+        and are a game score only. They are not a legal assessment of any person.
       </p>
 
       <h2>5. Recipients and transfers</h2>
       <p>
-        Apple Inc. (App Store, purchases). Hosting provider of this website: Vercel Inc.
-        Backend provider for planned features: Supabase. Transfers outside the EU/EEA rely on
-        adequacy decisions or Standard Contractual Clauses where applicable.
+        Apple Inc. (App Store, Sign in with Apple, purchases). Hosting provider of this website:
+        Vercel Inc. Backend provider for accounts and leagues: Supabase, Inc. (servers in the
+        United States). Transfers to the US and other countries outside the EU/EEA rely on the
+        EU-US Data Privacy Framework where the recipient is certified, otherwise on Standard
+        Contractual Clauses. We do not sell your data and share it with no other recipients.
       </p>
 
       <h2>6. Retention</h2>
       <p>
-        Local data persists until you delete it or the app. Server-side data (planned features)
-        is kept while your account exists and is deleted on account deletion, subject to legal
-        retention duties.
+        Local data persists until you delete it or the app. Server-side data is kept while your
+        account exists and is deleted when you delete your account in the app, subject to legal
+        retention duties. Deleting only the app does not delete your account; use
+        &ldquo;Delete account&rdquo; first.
       </p>
 
       <h2>7. Children</h2>
       <p>
         The App contains political satire and is not directed at children under 13 (US) or 16
-        (EU). Please do not use it if you are below that age.
+        (EU). Please do not use it if you are below that age.</p>
+      <p>
+        Updated for app version 1.1.0.
       </p>
 
       <h2>8. Your rights</h2>

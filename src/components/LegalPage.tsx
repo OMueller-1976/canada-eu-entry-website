@@ -31,7 +31,7 @@ export default function AppLegalPage({
         )}
         <div className="prose-onetitel mt-8">{children}</div>
         <p className="mt-10 text-sm text-graphite/70">
-          Last updated: October 2026 ·{" "}
+          Last updated: November 2026 ·{" "}
           <a className="underline" href="/subpoena-season">Back to Subpoena Season</a> ·{" "}
           <a className="underline" href="/legal-notice">Legal Notice (Impressum)</a>
         </p>
